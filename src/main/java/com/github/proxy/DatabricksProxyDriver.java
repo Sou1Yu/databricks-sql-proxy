@@ -7,6 +7,7 @@ import java.sql.*;
 import java.util.Properties;
 import java.util.logging.Logger;
 
+
 public class DatabricksProxyDriver implements Driver {
     private static final String PREFIX = "jdbc:proxy:databricks:";
     private static final String REAL_DRIVER_CLASS = "com.databricks.client.jdbc.Driver";
